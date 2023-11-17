@@ -1,0 +1,46 @@
+
+
+.contain {
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left {
+    border-right: 1px solid #DCDCDC;
+}
+
+.inputs {
+    border: 1px solid #FFFFFF;
+}
+
+.contain a {
+    color: #2BC48C;
+    font-weight: 600;
+}
+
+.custom-checkbox {
+    width: 27px;
+    height: 27px;
+  }
+
+  .check-div span {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .signup_contain h6 {
+    font-weight: 600;
+  }
+  
+@media (max-width: 768px) {
+    .signup_contain {
+        min-width: 100%;
+    }
+    .contain {
+        padding: 30px 15px !important;
+        width: 100% !important;
+    }
+}
